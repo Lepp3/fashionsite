@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Fashion style</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/png" href="images/sitefavicon.png">
+    </head>
+    <body>
+        <header>
+                <div class="content">
+                <div class="nav">
+                    <a href="index.html"><button class="navButton">Home</button></a>
+                <div class="dropdown">
+                    <a href="index.html"><button class="dropdownbutton">Categories</button></a>
+                    <div class="dropdown-content">
+                        <a href="#">Clothes</a>
+                        <a href="#">Shoes</a>
+                        <a href="#">Jewelry</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdownbutton">About us</button>
+                    <div class="dropdown-content">
+                        <a href="#">Who we are</a>
+                        <a href="#">Locations</a>
+                        <a href="#">Contact us</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdownbutton">Careers</button>
+                    <div class="dropdown-content">
+                        <a href="#">Cashiers</a>
+                        <a href="#">Supervisors</a>
+                        <a href="#">Managers</a>
+                    </div>
+                </div>
+                </div>
+                
+                    <a class ="siteTitle" href="index.html" class="siteTitle">Fashion Style</a>
+                
+                <div>   
+                <button class="logAreaButtons">Sign up</button>
+                <button class="logAreaButtons">Sign in</button>
+                </div> 
+            </div>
+            </header>
+       
+        <main>
+            <br>
+            <br>
+            <div class="loginDetails">
+            <form action="index.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" minlength="6" maxlength="12"placeholder="Username" required>
+                <br>
+                <label for="password" style="margin-right: 1.2%;">Password:</label>
+                <input type="password" id="password" minlength="5" maxlength="10" placeholder="Password" required>
+                <br>
+                <label for="email" style="margin-right: 9.5%;">Email:</label>
+                <input type="email" id="email" placeholder="usermail@gmail.com" pattern="[A-Za-z0-9]{3,}[@][a-z]{3,}[.][a-z]{2,}">
+                <br>
+                <input type="reset">
+                <br>
+                <input type="submit">
+            </form>
+        </div>
+        </main>
+        <footer></footer>
+    </body>
+    </html>
+</html>
