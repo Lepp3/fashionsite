@@ -1,0 +1,127 @@
+
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #171717;
+    background-color: #eec3c3;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px){
+a.siteTitle{
+    display: none;
+}
+}
+
+.navButton{
+    padding: 0.5rem;
+    border: none;
+    background-color: rgb(211, 147, 136);
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navButton:hover{
+    background-color: #f05b47;
+    outline: none;
+}
+
+.dropdownbutton{
+    background-color: rgb(211, 147, 136);
+    color: #171717;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none; 
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #7e7d3d;
+    min-width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.25rem;
+  }
+
+  .dropdown-content a:hover {background-color: #b6b56b;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.logAreaButtons{
+    padding: 0.5rem;
+    border: black;
+    background-color: rgb(211, 182, 177);
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+
+.logAreaButtons:hover{
+    background-color: #e68f8f;
+}
+
+.siteTitle{
+    font-size: 44px;
+    text-shadow: 1px 1px 1px;
+    text-decoration: none;
+    
+}
+
+.widgetContainer{
+    background-color: rgb(142, 228, 146);
+    min-width: 100vw;
+    min-height: 30vh;
+    box-shadow: 3px 3px 5px;
+}
+
+.widgetContainer a{
+    background-color: rgb(142, 228, 146);
+    margin-right: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.couponHolder{
+    display: flex;
+    justify-content: center;
+}
+.couponimg{
+    height: 300px;
+    width: 500px;
+
+}
+
+
+
+.loginDetails{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    flex-direction: row;
+}
+
+input:focus{
+outline-style: solid;
+outline-color: transparent;
+}
